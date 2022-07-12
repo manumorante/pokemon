@@ -1,4 +1,5 @@
 export interface PokemonListResponse {
+  [x: string]: any
   count: number
   next?: string
   previous?: string
@@ -7,5 +8,5 @@ export interface PokemonListResponse {
 
 export interface SmallPokemon {
   name: string
-  url: string
+  img: string
 }
